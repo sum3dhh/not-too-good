@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Roboto+Condensed:ital,wght@0,300;1,700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background: url(https://img.freepik.com/free-vector/perspective-japanese-street-neon-lights_52683-44988.jpg?w=2000);
+            
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Ubuntu', sans-serif;
+            color: white;
+            
+        }
+        .left{
+            /* border: 2px solid rgb(238, 139, 139); */
+            position: absolute;
+            left: 47px;
+            top: 23px;
+            text-align: center;
+            /* width: 24%; */
+        }
+        .left img{
+            width: 83px;
+            /* filter: invert(100%); */
+            
+        }
+        .mid{
+            /* border: 2px solid rgb(150, 233, 147); */
+            margin: 10px auto;
+            display: block;
+            width: 53%;
+            text-align: center;
+        }
+        .right{
+            /* border: 2px solid rgb(165, 227, 252); */
+            position: absolute;
+            right: 30px;
+            top: 26px;
+            padding: 4px;
+        }
+        .btn{
+            border: 3px solid rgb(252, 179, 252);
+            background-color: rgb(106 186 255);
+            width: 109px;
+            font-family: 'Ubuntu', sans-serif;
+            border-radius: 10px;
+        }
+        .btn:hover{
+            background-color: rgb(0 196 255);
+            cursor: pointer;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+
+        }
+        .navbar li a{
+            padding: 4px 33px;
+            /* margin: 2px; */
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color:#b32fa2;
+            border-radius: 5px;
+        }
+        .navbar li a:hover{
+            color: gray;
+            border: 3px solid honeydew;
+            background-color: #d95dc9;
+            border-radius: 5px;
+        }
+        .container{
+            /* border: 2px solid pink; */
+            margin: 103px 396px;
+            padding: 56px;
+            
+        }
+        .signinpg{
+            padding: 6px;
+             
+        }
+        h2{
+            color: #00f3ff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gfg.jpg" alt="">
+            <div>Anime Club</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Most Popular</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Live Streams</button><button class="btn">Anime quiz</button>
+        </div>
+        <div class="container">
+            <h2>Welcome to Anime Club</h2>
+            <form action="xyz.php">
+                <div class="signinpg">
+                    <input type="text" placeholder="Enter Your Username">
+                </div>
+                <div class="signinpg">
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+                <div class="signinpg">
+                    <input type="number" placeholder="Enter Your Age">
+                </div>
+                <div class="signinpg">
+                    <input type="password" placeholder="Enter Your Password">
+                </div>
+                <button class="btn">Submit Now</button>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
